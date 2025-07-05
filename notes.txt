@@ -1,1 +1,131 @@
-update 
+/**
+ * Study Case 1
+ * Buat algoritma & pseudocode untuk menghitung luas persegi panjang 
+ *
+ * ALGORITMA
+ * 1. Buat variable luas
+ * 2. Buat variable panjang
+ * 3. Buat variable lebar
+ * 4. Isi luas dengan panjang kali lebar
+ * 6. Proses luas
+ * 7. Cetak luas
+ *
+ * PSEUDOCODE
+ * MUL -> Multiply Perkalian
+ * DIV -> Divide Pembagian
+ * ADD -> Add Penjumlahan
+ * SUB -> Substract Pengurangan
+ *
+ * BEGIN
+ *  STORE panjang WITH ANY NUMBER
+ *  STORE lebar WITH ANY NUMBER
+ *  STORE luas WITH panjang MUL lebar
+ *  PRINT luas
+ * END
+ */
+
+// CODING
+
+// let panjang = 10;
+// let lebar = 5;
+// let tinggi = 3;
+
+// let volume = panjang * lebar * tinggi;
+// console.log(volume);
+
+* Study Case 2
+ * Buat algoritma & pseudocode untuk Luas Lingkaran
+ *
+ * ALGORITMA
+ * 1. Buat variable r
+ * 2. Buat variable phi isi dengan 3.14
+ * 3. Buat variable luas
+ * 4. Isi luas dengan rumus phi kali r kali r dan proses
+ * 5. Cetak luas
+ *
+ * PSEUDOCODE
+ * BEGIN
+ *  STORE r WITH ANY NUMBER
+ *  STORE phi WITH 3.14
+ *
+ *  STORE luas WITH phi MUL r MUL r
+ *  PRINT luas
+ * END
+ *
+ */
+
+ * Study Case 3
+ * Buat algoritma & pseudocode untuk setengah volume bola
+ *
+ * ALGORITMA
+ * 1. Buat variable r
+ * 2. Buat variable phi isi dengan 3.14
+ * 3. Buat variable volume
+ * 4. Buat variable sb dengan 2/3
+ * 4. Isi volume dengan sb kali phi kali r kali r kali r dan proses
+ * 5. Cetak volume
+ *
+ * PSEUDOCODE
+ * BEGIN
+ *  STORE r WITH ANY NUMBER
+ *  STORE phi WITH 3.14
+ *  STORE sb WITH  2/3
+
+ *  STORE volume WITH sb MUL phi MUL r MUL r MUL r
+ *  PRINT volume
+ * END
+ *
+ */
+
+ /**
+ * Study Case 4
+ * Hitung Luas permukaan tabung dan tentukan algoritma, pseudocode 
+ * luas = 2 * phi * r * t + 2 * phi * r * r
+ *
+ * ALGORITMA
+ * 1. Buat variable phi isi dengan 3.14
+ * 2. Buat variable r
+ * 3. Buat variable t
+ * 4. Buat variable luas
+ * 5. Isi variable luas dengan rumus 2 kali phi kali r kali t tambah 2 kali phi kali r kali r
+ * 6. Hitung luas
+ * 7. Cetak luas
+ *
+ * PSEUDOCODE
+ *
+ * BEGIN
+ *  STORE phi WITH 3.14
+ *  STORE r WITH ANY NUMBER
+ *  STORE t WITH ANY NUMBER
+ *
+ *  STORE luas WITH 2 MUL phi MUL r MUL t ADD 2 MUL phi MUL r MUL r
+ *  PRINT luas
+ * END
+ */
+
+
+/**
+ * Study Case 5
+ * Hitung Luas permukaan balok dan tentukan algoritma, pseudocode 
+ * L = 2 × (p × l + p × t + l × t)
+ *
+ * ALGORITMA
+ * 1. Buat variable panjang
+ * 2. Buat variable lebar
+ * 3. Buat variable tinggi
+ * 4. Buat variable luas
+ * 5. Isi variable luas dengan 2 kali (panjang kali lebar tambah panjang kali tinggi tambah lebar kali tinggi)
+ * 6. Hitung luas
+ * 7. Cetak luas
+ *
+ * PSEUDOCODE
+ *
+ * BEGIN
+ *  STORE p WITH ANY NUMBER
+ *  STORE l WITH ANY NUMBER
+ *  STORE t WITH ANY NUMBER
+ *
+ *  STORE luas WITH 2 MUL ( (p MUL l) ADD (p MUL t) ADD (l MUL t) )
+ *  PRINT luas
+ * END
+ */
