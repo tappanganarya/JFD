@@ -114,7 +114,8 @@
  * 2. Buat variable lebar
  * 3. Buat variable tinggi
  * 4. Buat variable luas
- * 5. Isi variable luas dengan 2 kali (panjang kali lebar tambah panjang kali tinggi tambah lebar kali tinggi)
+ * 5. Isi variable luas dengan 2 kali (panjang kali lebar tambah 
+ panjang kali tinggi tambah lebar kali tinggi)
  * 6. Hitung luas
  * 7. Cetak luas
  *
