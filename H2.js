@@ -207,4 +207,4 @@ switch (Pembeli) {
 
 }
 console.log("Warga Merupakan Penduduk " + Pembeli + " Lama Tinggal " + Stay +
-    " dan umur " + umur + ". Total Pembelian : " + Total + " Mendapatkan diskon " + diskon + " sehingga total dibayar adalah " + total_bayar)
+    " dan umur " + umur + ". Total Pembdsselian : " + Total + " Mendapatkan diskon " + diskon + " sehingga total dibayar adalah " + total_bayar)
