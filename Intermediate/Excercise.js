@@ -52,6 +52,10 @@ class Kitchen {
         }
     }
 
+    showInTables() {
+        console.table(this.container);
+    }
+
     addCokkie(name, price, ingredients, type, isSweet = false) {
         let id;
 
@@ -213,6 +217,8 @@ cookies.addCokkie("Coklat Kakak", 500, ["Tepung", "Bakwan", "Micin"], "Sweet");
 
 // cookies.showCookies();
 
-cookies.categoriesCookies();
+// cookies.categoriesCookies();
+
+cookies.showInTables();
 
 
