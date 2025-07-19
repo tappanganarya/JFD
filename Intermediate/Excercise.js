@@ -155,7 +155,7 @@ class Kitchen {
 
     }
 
-    categoriesCookies(type) {
+    categoriesCookies() {
 
         const categories = {};
 
