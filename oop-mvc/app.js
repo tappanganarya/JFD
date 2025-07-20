@@ -8,13 +8,13 @@ switch (command) {
         Controller.showCoffees();
         break;
     case "add":
-        Controller.add();
+        Controller.add(params);
         break;
     case "delete":
-        Controller.delete();
+        Controller.delete(params);
         break;
     case "update":
-        Controller.update();
+        Controller.update(params);
         break;
     default:
         Controller.message("Command not found");

@@ -6,14 +6,14 @@ class Controller {
         let coffees = Coffee.getCoffees();
         View.show(coffees);
     }
-    static add() {
-        console.log("Show Coffees");
+    static add(params) {
+        Coffee.add(params);
     }
-    static delete() {
-        console.log("Show Coffees");
+    static delete(params) {
+        Coffee.delete(params);
     }
-    static update() {
-        console.log("Show Coffees");
+    static update(params) {
+        Coffee.update(params);
     }
     static message(msg) {
         console.log(msg);
