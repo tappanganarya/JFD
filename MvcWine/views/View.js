@@ -6,7 +6,6 @@ class View {
             console.log(`${index + 1}. ${wine.name} ${wine.year}`);
         })
     }
-
 }
 
 module.exports = View;

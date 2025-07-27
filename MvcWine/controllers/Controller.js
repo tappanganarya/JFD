@@ -1,5 +1,5 @@
-const Wine = require("../models/Model");
-const View = require("../views/View")
+const Wine = require("../models/Models");
+const View = require("../views/Views");
 
 class Controller {
 
